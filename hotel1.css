@@ -1,0 +1,708 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    background-color: rgba(241, 11, 49,0.8);
+    position: relative;
+    top:-10px;
+    left:-10px;
+    max-width: 1337px;
+    width:100%;
+}
+.social i{
+    padding-left: 10px;
+    color: white;
+width:20px;
+height:20px;
+}
+
+.light{
+    color: rgba(233, 230, 230);
+}
+.con span{
+    font-family: 'Comfortaa', cursive;
+ 
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 100px;
+   
+}
+.menubar>div>span>a{
+    text-decoration: none;
+    color: black;
+}
+
+.menubar span{
+    padding: 20px;
+padding-top: 0;
+    font-size: 20px;
+    transition: 0.8s all ease;
+}
+.menubar span:hover{
+    border-bottom: 3px solid rgba(241, 11, 49,0.8);
+ cursor: pointer;
+    padding-bottom: 42px;
+    margin-bottom: 40px;
+    position: relative;
+    top: -20px;
+    padding-top: 30px;
+    background-color: rgba(241, 11, 49,0.8);
+}
+
+
+
+.home{
+    background-image: url("https://www.beekeeper.io/wp-content/uploads/2017/03/happy-hotel-guests-FB-.jpg");
+    width: 1520px;
+    height:800px;
+    background-size: 100% ;
+background-color: rgb(248, 198, 198);
+background-attachment: fixed;
+background-blend-mode: multiply;
+    
+}
+.menubar i{
+    display: none;
+}
+.body1{
+
+    font-size: 20px;
+    font-weight: 0px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    padding: 100px 100px 0px 100px;
+  
+  
+}
+.home h1{
+
+    color: white;
+    font-size: 90px;
+    width: 800px;
+    text-align: left;
+    margin: 20px 100px 100px;
+   
+}
+#learn{
+    width:140px;
+    height: 50px;
+    background-color: rgb(252, 66, 97);
+    border-radius: 7px;
+    outline: none;
+    border: 0px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0.9px;
+}
+#learn:hover{
+    background-color: transparent;
+    border: 2px rgba(243, 45, 78, 0.6) solid;
+    z-index: 999;
+}
+#contactus{
+    width:140px;
+    height: 50px;
+    background-color: white;
+    border-radius: 7px;
+    outline: none;
+    border: 0px;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0.9px;
+}
+#contactus:hover{
+background-color: transparent;
+border:2px solid white;
+}
+#lc{
+    margin: 0px 200px;
+    float: left;
+}
+.entry{
+    float: right;
+    position: relative;
+    top:-400px;
+    left:-40px;
+    background-color: white;
+    padding: 40px;
+
+  
+}
+.fstnm{
+width:400px;
+}
+.checki{
+    width: 150px;
+}
+.entry td{
+    padding: 10px;
+  
+}
+.entry input{
+    width:auto;
+    height:40px;
+    padding:5px;
+    border-radius: 8px;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid rgb(173, 172, 172);
+    font-size: 16px;
+    
+}
+.text{
+    font-size: 45px;
+    padding: 0px;
+}
+.entry select{
+    width:auto;
+    height:40px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(173, 172, 172);
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+}
+.bookbtn{
+    width:auto;
+    height:40px;
+    background-color:rgb(252, 66, 97,0.7);
+    padding:10px;
+    margin: 20px 0px 0px 0px;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+.bookbtn:hover{
+    background-color:rgb(221, 61, 88);
+  color:white;
+}
+.section2 img{
+    width: 300px;
+    height: 200px;
+}
+.section2 div{
+    background-color: white;
+    width:500px;
+    padding: 20px 20px;
+    margin: 0px 20px;
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: 0px 3px 5px -2px gray;
+}
+.section2 p{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(221, 75, 100);
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 14px;
+line-height: 25px;
+}
+.section2 h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 10px;
+}
+.section2{
+    display: flex;
+    position: relative;
+    top:-50px;
+    left: 180px;
+}
+.section2 button{
+    color: white;
+    background-color: rgba(243, 45, 78, 0.6);
+    width:150px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+    border: 0px;
+    border-radius: 4px;
+}
+.section3 h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(181, 181, 233,0.2);
+    padding: 70px;
+}
+.room1{
+    background-image: url("https://th.bing.com/th/id/R630928a906494ce6b95649f5a30c6586?rik=0XSBcUkTtgRe%2bw&riu=http%3a%2f%2fomnihotels.com%2f-%2fmedia%2fimages%2fhotels%2fmsyrvr%2fhotel%2fmsyrvr-omni-riverfront-hotel-deluxe-room.jpg%3fh%3d660%26la%3den%26w%3d1170&ehk=ptMq%2fVGghNPJIO7IGTA8WXaX1dIpOD1zLyGN7oX0qkA%3d&risl=&pid=ImgRaw");
+height: 400px;
+grid-area: room1;
+background-size: 100%;
+}
+#room{
+    width:370px;
+    background-color: white;
+    position: relative;
+    left: 382px;
+    height: 400px;
+    
+}
+.clip{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    clip-path: polygon(100% 0, 0 45%, 100% 100%);
+    float: left;
+    position: relative;
+    left:360px;
+    top:200px
+}
+
+.room2{
+    background-image: url("https://th.bing.com/th/id/Ra24428cfefacd129ae1e0b4bd39458e5?rik=wgNiE6W3bnPONQ&riu=http%3a%2f%2fwww.kabayanhotel.com.ph%2fwp-content%2fuploads%2f2016%2f03%2fkabayan-standardroom-03.jpg&ehk=zN%2fQfysdWuhkzbP63YqtxIqKq%2fMf6iJuCwzjke0xZnY%3d&risl=&pid=ImgRaw");
+grid-area: room2;
+background-size: 100%;
+
+}
+.rooms{
+    display: grid;
+    grid-template-areas: 'room1 room2'
+    'room3 room4';
+}
+#room h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+#room i{
+    color: rgb(252, 194, 143);
+    position: relative;
+    left:110px;
+    top:30px;
+}
+#room p{
+   line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+#af{
+    color: rgb(143, 140, 140);
+}
+.room1:hover #af{
+    color:white;
+}
+.room2:hover #af{
+    color:white;
+}
+.room1:hover #room{
+    background-color:rgb(252, 66, 97) ;  
+}
+.room1:hover #room i{
+color: white;
+}
+.room2:hover #room i{
+color: white;
+}
+.room1:hover .clip{
+    background-color: rgb(252, 66, 97) ;
+}
+.room2:hover #room{
+    background-color:rgb(252, 66, 97) ;
+}
+.room2:hover .clip{
+    background-color:rgb(252, 66, 97) ;
+}
+.room3{
+    background-image: url(https://media.iceportal.com/31388/photos/60349126_XXL.jpg);
+grid-area: room3;
+height: 400px;
+background-size:cover;
+}
+#room2 h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+#room2 i{
+    color: rgb(252, 194, 143);
+    position: relative;
+    left:150px;
+    top:30px;
+}
+#room2 p{
+   line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+#af{
+    color: rgb(143, 140, 140);
+}
+#room2{
+    width:382px;
+    background-color: white;
+   float: left;
+    height: 400px;
+    position: relative;
+    top:-40px;
+}
+.clip2{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(252, 248, 248);
+    clip-path: polygon(100% 48%, 0 0, 0 100%);
+    position: relative;
+    left:377px;
+    top:200px;  
+}
+.room4{
+    background-image: url(https://media.iceportal.com/31388/photos/60349126_XXL.jpg);
+height: 400px;
+background-size: 100%;
+}
+.room4:hover #af{
+    color:white;
+}
+.room3:hover #af{
+    color:white;
+}
+.room3:hover #room2{
+    background-color:rgb(252, 66, 97)  ; 
+}
+.room3:hover #room2 h3{
+    color: white;
+}
+.room1:hover #room h3{
+    color: white;
+}
+.room2:hover #room h3{
+    color: white;
+}
+.room3:hover #bef{
+    color: white;
+}
+.room1:hover #bef{
+    color: white;
+}
+.room2:hover #bef{
+    color: white;
+}
+.room4:hover #bef{
+    color: white;
+}
+.room3:hover #room2 i{
+color: white;
+}
+.room4:hover #room2 i{
+color: white;
+}
+.room3:hover .clip2{
+    background-color: rgb(252, 66, 97) ;
+}
+.room4:hover #room2{
+    background-color:rgb(252, 66, 97);
+}
+.room4:hover .clip2{
+    background-color:rgb(252, 66, 97) ;
+}
+.rooms{
+    position: relative;
+    top:-50px;
+}
+.section4 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+.section4{
+    background-color: rgb(181, 181, 233,0.2);
+    padding: 120px;
+    position: relative;
+    top:-50px;
+}
+.rooms button{
+    background-color:rgb(252, 66, 97) ;
+    padding: 10px;
+    border: 0px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: relative;
+    left:110px;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    border-radius: 8px;
+}
+.room1:hover #room button{
+   background-color: white;
+   color: rgb(252, 66, 97);
+}
+.room2:hover #room button{
+   background-color: white;
+   color: rgb(252, 66, 97);
+}
+.room3:hover #room2 button{
+   background-color: white;
+   color: rgb(252, 66, 97);
+}
+.room4:hover #room2 button{
+   background-color: white;
+   color: rgb(252, 66, 97);
+}
+.slider{
+
+ width:1260px;
+ height:400px;
+ margin-left: auto;
+ margin-right: auto;
+overflow: hidden;
+
+}
+
+.block1{
+    width:380px;
+    height:230px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    box-shadow: 0px 2px 8px grey;
+    border-radius: 30% 0px 0px 0px;
+    background-color: white;
+}
+.block1 p{
+    margin-right: 10px;
+    margin-top:0 ;
+    position: relative;
+    top:-20px;
+}
+.blocks{
+width:5040px;
+    height:400px;
+    transition: left 1s;
+    position: relative;
+   
+}
+#part{
+  width:1260px;
+ margin: 0;
+ padding: 0;
+    float: left;
+}
+#nav_slide .dots{
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: salmon;
+    transition:0.4s;
+}
+#radio1:checked ~ #nav_slide #i1,
+#radio2:checked ~ #nav_slide #i2,
+#radio3:checked ~ #nav_slide #i3,
+#radio4:checked ~ #nav_slide #i4{
+    background-color: rgba(241, 11, 49,0.8);
+}
+
+#radio1:checked ~.blocks{
+left:0px;
+}
+#radio2:checked~.blocks{
+left:-1260px;
+}
+#check{
+    visibility: hidden;
+}
+
+#ar3:target~.blocks{
+ left:-1260px;
+}
+
+#ar4:target~.blocks{
+    left:-2520px;
+}
+
+#part img{
+   margin: 8px 25px 150px 8px; 
+    width:50px;
+     height: 50px;
+      border-radius: 50%; 
+    float: left;
+}
+.block1 i{
+   color:  rgb(252, 66, 97);
+  font-size: 40px;
+  position: relative;
+  left:-110px;
+  top:-20px;
+}
+.box{
+    display: grid;
+    grid-template-areas:'lef rig';
+    justify-content: center;
+}
+.left{
+    grid-area:lef;
+    height:600px;
+
+}
+.left img{
+    width:600px;
+    height: 900px;
+}
+
+.right i{
+ font-size: 30px;
+ padding: 10px;
+ border-radius: 50%;
+background-color: rgb(252, 66, 97);
+color:white;
+}
+.p1{
+    text-align: left; 
+    font-family: 'PT Sans', sans-serif; 
+    color: rgb(143, 140, 140); 
+    font-size:16px;
+    padding-top: 30px;
+}
+.right{
+    font-size: 30px;
+    text-align: left;
+    padding: 0;
+    grid-area:rig;
+    padding-left: 100px;
+}
+.right h3{
+    color:black;
+    font-size:30px;
+   margin: 0px;
+}
+.right p{
+    font-size: 20px;
+    color:rgb(143, 140, 140);
+width: 500px;
+}
+.section5 {
+    background-image: url("https://www.beekeeper.io/wp-content/uploads/2017/03/happy-hotel-guests-FB-.jpg");
+width:100%;
+height:400px;
+
+background-size:100% ;
+background-color: rgb(248, 198, 198);
+background-attachment: fixed;
+background-blend-mode: multiply;
+
+}
+.section5 h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 0;
+padding-top: 50px;
+margin: 0;
+
+}
+.section5 p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.section5 input{
+outline: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
+    position: relative;
+    left: 600px;
+    top:-50px;
+}
+.section5 input:hover{
+    background-color: transparent;
+    border: 2px solid rgb(252, 66, 97);
+    color: white;
+}
+.section6{
+color: white;
+display: flex;
+
+}
+.section6 div{
+    padding: 60px;
+    width: 500px;
+    font-size: 20px;
+}
+.section6 h3{
+    font-size: 30px;
+}
+.section6 p{
+  line-height: 30px;
+}
+.section6 input{
+    width: 250px;
+    padding:20px;
+    height:20px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0;
+    outline: none;
+}
+.services>ul>li{
+   list-style: none;
+   position: relative;
+   left:-40px;
+   padding-bottom: 10px;
+}
+.services>ul>li:hover{
+    color:rgb(252, 66, 97);
+    cursor: pointer;
+}
+.section6 button{
+    width:60px;
+    height:60px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0;
+    position: relative;
+    left: -10px;
+    background-color: rgb(252, 66, 97);
+    outline: none;
+}
+.section6{
+    background-image: linear-gradient(180deg,black,grey);
+}
+.section_main6{
+    background-color: rgb(17, 17, 17);
+
+}
+.cpy1{
+    color:rgb(187, 183, 183);
+   padding: 20px;
+  position: relative;
+  top:10px;
+    height:60px;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.epkm{
+position: relative;
+left:-100px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.icos i{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+   
+}
+.cpy i{
+    color:rgb(187, 183, 183);
+    
+}
+.icos i:hover{
+   color: rgb(252, 66, 97);
+}
